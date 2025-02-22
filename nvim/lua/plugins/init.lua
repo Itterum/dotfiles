@@ -29,6 +29,7 @@ return {
       require "configs.toggleterm"
     end,
   },
+
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
   -- 	opts = {
