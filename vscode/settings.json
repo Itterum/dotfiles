@@ -1,0 +1,117 @@
+{
+  // autosave
+  "files.autoSave": "afterDelay",
+  // workbench
+  "workbench.activityBar.location": "bottom",
+  "workbench.editor.showTabs": "none",
+  "workbench.editor.limit.value": 1,
+  "workbench.iconTheme": "catppuccin-mocha",
+  // editor
+  "editor.fontFamily": "FiraCode Nerd Font",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  // teminal
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.fontSize": 13,
+  // js/ts
+  "javascript.format.semicolons": "insert",
+  "typescript.format.semicolons": "insert",
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "javascript.preferences.quoteStyle": "single",
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "typescript.preferences.quoteStyle": "single",
+  },
+  // flutter/dart
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "dart.buildRunnerAdditionalArgs": [
+    "--delete-conflicting-outputs"
+  ],
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true,
+    "editor.suggest.insertMode": "replace",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit",
+      "source.fixAll": "explicit"
+    },
+  },
+  // golang
+  "gopls": {
+    "ui.semanticTokens": true
+  },
+  "[go]": {
+    "editor.formatOnSave": false,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "golang.go",
+  },
+  // clang
+  "C_Cpp.default.cppStandard": "c++11",
+  "C_Cpp.clang_format_fallbackStyle": "LLVM",
+  "C_Cpp.formatting": "clangFormat",
+  "[c]": {
+    "editor.wordBasedSuggestions": "off",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.stickyScroll.defaultModel": "foldingProviderModel",
+    "editor.suggest.insertMode": "replace",
+    "editor.tabSize": 2
+  },
+  "[cpp]": {
+    "editor.wordBasedSuggestions": "off",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.stickyScroll.defaultModel": "foldingProviderModel",
+    "editor.suggest.insertMode": "replace",
+    "editor.tabSize": 2
+  },
+  // vim
+  "vim.handleKeys": {
+    "<C-p>": false,
+    "<C-b>": false,
+    "<C-j>": false,
+    "<C-c>": false,
+    "<C-v>": false,
+    "<C-f>": false,
+    "<C-w>": false,
+    "<C-x>": false,
+    "<C-k>": false,
+    "<C-z>": false,
+    "<C-o>": false,
+    "<C-e>": false,
+    "<C-a>": false,
+  },
+  // zenmode
+  "zenMode.centerLayout": true,
+  "zenMode.showTabs": "none",
+  "zenMode.hideStatusBar": false,
+  // other 
+  "chat.commandCenter.enabled": false,
+  "telemetry.telemetryLevel": "off",
+  "RainbowBrackets.depreciation-notice": false,
+  "emulator.emulatorPathLinux": "/home/itterum/Android/Sdk/emulator",
+  "emulator.emulatorPathWindows": "C:\\Users\\itterum\\AppData\\Local\\Android\\Sdk\\emulator",
+  "window.newWindowDimensions": "inherit",
+  "explorer.compactFolders": false,
+  "window.menuBarVisibility": "compact",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ],
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "window.customTitleBarVisibility": "auto",
+  "password-store":"kdewallet"
+}
