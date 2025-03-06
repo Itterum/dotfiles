@@ -10,8 +10,8 @@ opt.tabstop = 2
 opt.shiftwidth = 2
 opt.softtabstop = 2
 opt.expandtab = true
+opt.swapfile = false
 
-opt.shell = "pwsh"
-opt.shellcmdflag = "-NoLogo -NoProfile -ExecutionPolicy RemoteSigned -Command"
-opt.shellxquote = ""
-
+opt.shell = "zsh"
+-- opt.shellcmdflag = "-NoLogo -NoProfile -ExecutionPolicy RemoteSigned -Command"
+-- opt.shellxquote = ""
