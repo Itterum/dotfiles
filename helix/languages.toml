@@ -1,0 +1,35 @@
+[[language]]
+name = "rust"
+auto-format = true
+formatter = { command = "rustfmt" }
+
+[[language]]
+name = "typescript"
+formatter = { command = "prettier", args = ["--parser", "typescript"] }
+auto-format = true
+
+[[language]]
+name = "tsx"
+formatter = { command = "prettier", args = ["--parser", "typescript"] }
+auto-format = true
+
+[[language]]
+name = "javascript"
+formatter = { command = "prettier", args = ["--parser", "javascript"] }
+auto-format = true
+
+[[language]]
+name = "jsx"
+formatter = { command = "prettier", args = ["--parser", "javascript"] }
+auto-format = true   
+
+[[language]]
+name = "c-sharp"
+file-types = ["cs", "csx"]
+auto-format = true
+formatter = { command = "dotnet", args = ["csharpier"] }   
+
+[[language]]
+name = "lua"
+formatter = { command = "stylua", args = ["--search-parent-directories", "-"] }
+auto-format = true   

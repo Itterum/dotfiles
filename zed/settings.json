@@ -1,0 +1,149 @@
+{
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        }
+      },
+      "enable_lsp_tasks": true
+    }
+  },
+  "edit_predictions": {
+    "provider": "ollama",
+    "mode": "subtle",
+    "ollama": {
+      "prompt_format": "qwen",
+      "model": "qwen2.5-coder:3b",
+    },
+  },
+  "agent_servers": {
+    "opencode": {
+      "type": "registry"
+    },
+    "pi-acp": {
+      "type": "registry",
+    },
+  },
+  "outline_panel": {
+    "folder_icons": true,
+    "file_icons": true,
+  },
+  "file_finder": {
+    "file_icons": true,
+  },
+  "colorize_brackets": true,
+  "helix_mode": false,
+  "use_system_window_tabs": true,
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "tab_bar": {
+    "show": true,
+  },
+  "title_bar": {
+    "show_menus": false,
+    "show_sign_in": false,
+    "show_branch_icon": false,
+  },
+  "debugger": {
+    "dock": "bottom",
+  },
+  "window_decorations": "server",
+  "tabs": {
+    "file_icons": false,
+    "show_close_button": "hover",
+  },
+  "restore_on_startup": "last_session",
+  "git_panel": {
+    "dock": "left",
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": false,
+    },
+  },
+  "project_panel": {
+    "file_icons": true,
+    "folder_icons": true,
+    "dock": "left",
+    "auto_fold_dirs": false,
+  },
+  "base_keymap": "JetBrains",
+  "autosave": "off",
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Min Icons",
+    "dark": "Zed (Default)",
+  },
+  "agent": {
+    "default_model": {
+      "enable_thinking": false,
+      "provider": "ollama",
+      "model": "fredrezones55/qwen3.5-opus:9b",
+    },
+    "inline_assistant_model": {
+      "provider": "ollama",
+      "model": "qwen2.5-coder:7b",
+    },
+    "use_modifier_to_send": true,
+  },
+  "telemetry": {
+    "metrics": false,
+    "diagnostics": false,
+  },
+  "vim_mode": true,
+  "relative_line_numbers": "enabled",
+  "ui_font_family": "Comic Sans MS",
+  "ui_font_size": 14.0,
+  "buffer_font_family": "Hack Nerd Font",
+  // "buffer_font_features": {
+  //   "calt": true,
+  // },
+  "buffer_font_size": 13.0,
+  "theme": {
+    "mode": "dark",
+    "light": "JetBrains Dark",
+    "dark": "JetBrains Dark",
+  },
+  "terminal": {
+    "dock": "right",
+    "font_family": "FiraCode Nerd Font",
+  },
+  "languages": {
+    "JavaScript": {
+      "tab_size": 4,
+      "prettier": {
+        "singleQuote": true,
+      },
+      "format_on_save": "on",
+    },
+    "TypeScript": {
+      "tab_size": 4,
+      "prettier": {
+        "singleQuote": true,
+      },
+      "format_on_save": "on",
+    },
+  },
+  "diagnostics": {
+    "inline": {
+      "enabled": true,
+      "max_severity": null, // same values as the `diagnostics_max_severity` from the editor settings
+    },
+  },
+  "format_on_save": "on",
+  "soft_wrap": "preferred_line_length",
+  "preferred_line_length": 100,
+  "inlay_hints": {
+    "enabled": true,
+    "show_type_hints": true,
+  },
+}
