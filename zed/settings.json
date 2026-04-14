@@ -4,17 +4,17 @@
       "settings": {
         "typescript": {
           "updateImportsOnFileMove": {
-            "enabled": "always"
-          }
+            "enabled": "always",
+          },
         },
         "javascript": {
           "updateImportsOnFileMove": {
-            "enabled": "always"
-          }
-        }
+            "enabled": "always",
+          },
+        },
       },
-      "enable_lsp_tasks": true
-    }
+      "enable_lsp_tasks": true,
+    },
   },
   "edit_predictions": {
     "provider": "ollama",
@@ -25,8 +25,14 @@
     },
   },
   "agent_servers": {
-    "opencode": {
+    "codex-acp": {
       "type": "registry"
+    },
+    "claude-acp": {
+      "type": "registry"
+    },
+    "opencode": {
+      "type": "registry",
     },
     "pi-acp": {
       "type": "registry",
@@ -40,7 +46,7 @@
     "file_icons": true,
   },
   "colorize_brackets": true,
-  "helix_mode": false,
+  "helix_mode": true,
   "use_system_window_tabs": true,
   "session": {
     "trust_all_worktrees": true,
@@ -80,14 +86,24 @@
   "autosave": "off",
   "icon_theme": {
     "mode": "dark",
-    "light": "Min Icons",
+    "light": "Zed (Default)",
     "dark": "Zed (Default)",
   },
   "agent": {
+    "tool_permissions": {
+      "tools": {
+        "create_directory": {
+          "default": "allow"
+        },
+        "terminal": {
+          "default": "allow"
+        }
+      }
+    },
     "default_model": {
-      "enable_thinking": false,
+      "enable_thinking": true,
       "provider": "ollama",
-      "model": "fredrezones55/qwen3.5-opus:9b",
+      "model": "gemma4:latest",
     },
     "inline_assistant_model": {
       "provider": "ollama",
@@ -99,9 +115,9 @@
     "metrics": false,
     "diagnostics": false,
   },
-  "vim_mode": true,
+  "vim_mode": false,
   "relative_line_numbers": "enabled",
-  "ui_font_family": "Comic Sans MS",
+  "ui_font_family": ".ZedSans",
   "ui_font_size": 14.0,
   "buffer_font_family": "Hack Nerd Font",
   // "buffer_font_features": {
@@ -115,7 +131,7 @@
   },
   "terminal": {
     "dock": "right",
-    "font_family": "FiraCode Nerd Font",
+    "font_family": "Hack Nerd Font",
   },
   "languages": {
     "JavaScript": {
