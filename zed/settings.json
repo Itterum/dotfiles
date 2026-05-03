@@ -26,10 +26,10 @@
   },
   "agent_servers": {
     "codex-acp": {
-      "type": "registry"
+      "type": "registry",
     },
     "claude-acp": {
-      "type": "registry"
+      "type": "registry",
     },
     "opencode": {
       "type": "registry",
@@ -57,7 +57,6 @@
   "title_bar": {
     "show_menus": false,
     "show_sign_in": false,
-    "show_branch_icon": false,
   },
   "debugger": {
     "dock": "bottom",
@@ -93,12 +92,12 @@
     "tool_permissions": {
       "tools": {
         "create_directory": {
-          "default": "allow"
+          "default": "allow",
         },
         "terminal": {
-          "default": "allow"
-        }
-      }
+          "default": "allow",
+        },
+      },
     },
     "default_model": {
       "enable_thinking": true,
@@ -119,11 +118,11 @@
   "relative_line_numbers": "enabled",
   "ui_font_family": ".ZedSans",
   "ui_font_size": 14.0,
-  "buffer_font_family": "Hack Nerd Font",
-  // "buffer_font_features": {
-  //   "calt": true,
-  // },
-  "buffer_font_size": 13.0,
+  "buffer_font_family": ".ZedMono",
+  "buffer_font_features": {
+    "calt": true,
+  },
+  "buffer_font_size": 14.0,
   "theme": {
     "mode": "dark",
     "light": "JetBrains Dark",
@@ -131,7 +130,7 @@
   },
   "terminal": {
     "dock": "right",
-    "font_family": "Hack Nerd Font",
+    "font_family": ".ZedMono",
   },
   "languages": {
     "JavaScript": {
@@ -156,7 +155,7 @@
     },
   },
   "format_on_save": "on",
-  "soft_wrap": "preferred_line_length",
+  "soft_wrap": "prefer_line",
   "preferred_line_length": 100,
   "inlay_hints": {
     "enabled": true,
