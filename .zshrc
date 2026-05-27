@@ -28,3 +28,9 @@ alias v="nvim"
 
 alias dev="/home/itterum/Documents/Dev"
 alias work="/home/itterum/Documents/Work"
+
+# Go
+export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
+
+# Ensure Helix uses True Color regardless of terminal
+export COLORTERM="truecolor"
