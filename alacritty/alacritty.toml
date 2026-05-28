@@ -1,0 +1,33 @@
+[window]
+# Дефолтный размер окна при запуске (колонки и строки)
+dimensions = { columns = 130, lines = 45 }
+# Внутренние отступы (padding) делают терминал визуально приятнее
+padding = { x = 12, y = 12 }
+dynamic_padding = true
+
+[font]
+# Настройка шрифта
+normal = { family = "Hack Nerd Font", style = "Regular" }
+bold = { family = "Hack Nerd Font", style = "Bold" }
+italic = { family = "Hack Nerd Font", style = "Italic" }
+size = 10.0
+
+# Отрисовка символов
+builtin_box_drawing = true
+
+[terminal.shell]
+program = "wsl.exe"
+args = ["-d", "Debian", "--cd", "~", "--", "tmux", "new-session", "-A", "-s", "main"]
+
+[colors.primary]
+# Элегантные темные цвета (в стиле VS Code / JetBrains Dark)
+background = "#1e1e1e"
+foreground = "#cccccc"
+
+[colors.cursor]
+text = "#1e1e1e"
+cursor = "#d4d4d4"
+
+[mouse]
+# Скрывать курсор мыши во время печати (улучшает фокус)
+hide_when_typing = true
