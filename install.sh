@@ -1,17 +1,15 @@
 #!/bin/bash
 set -e
 
-echo "=> Setting up symlinks for dotfiles..."
+echo "=> Copying dotfiles..."
 mkdir -p ~/.config
-
-# Create symlinks
-ln -sf ~/Dev/dotfiles/.zshrc ~/.zshrc
-
 mkdir -p ~/.tmux
-ln -sf ~/Dev/dotfiles/tmux/.tmux.conf ~/.tmux.conf
 
+# Copy files instead of symlinking
+cp ~/Dev/dotfiles/.zshrc ~/.zshrc
+cp ~/Dev/dotfiles/tmux/.tmux.conf ~/.tmux.conf
 rm -rf ~/.config/helix
-ln -sf ~/Dev/dotfiles/helix ~/.config/helix
+cp -r ~/Dev/dotfiles/helix ~/.config/helix
 
 echo "=> Installing NVM and Node.js (LTS)..."
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
