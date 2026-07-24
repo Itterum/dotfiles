@@ -1,0 +1,335 @@
+2026-07-12T19:29:48.763282Z  INFO herdr::api::server: api server listening path=C:\Users\itterum\AppData\Roaming\herdr\herdr.sock
+2026-07-12T19:29:48.764622Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-07-12T19:29:48.829217Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T19:29:48.829634Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-07-12T19:29:48.870379Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=27920
+2026-07-12T19:29:48.871196Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w1" pane_id=1
+2026-07-12T19:29:48.871219Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-07-12T19:29:48.871252Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-12T19:29:48.871273Z  INFO herdr::server::headless: created startup workspace cwd=C:\Users\itterum
+2026-07-12T19:29:48.884921Z  INFO herdr::server::headless: client protocol socket listening path=C:\Users\itterum\AppData\Roaming\herdr\herdr-client.sock
+2026-07-12T19:29:48.885063Z  INFO herdr::server::headless: herdr server started api_socket=C:\Users\itterum\AppData\Roaming\herdr\herdr.sock client_socket=C:\Users\itterum\AppData\Roaming\herdr\herdr-client.sock
+2026-07-12T19:29:48.885120Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=19472
+2026-07-12T19:29:48.893052Z  INFO herdr::server::headless: client connected client_id=2 cols=157 rows=42 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-12T19:29:49.032384Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T19:29:53.889169Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-12T19:32:33.407195Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 0, signal: None }"
+2026-07-12T19:32:33.419450Z  INFO herdr::pane: pane session terminated pane=1 pid=27920 signal=Hangup
+2026-07-12T19:32:33.420650Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=41 cols=131 scrollback_limit_bytes=10000000
+2026-07-12T19:32:33.442333Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=24676
+2026-07-12T19:32:33.442860Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w2" pane_id=2
+2026-07-12T19:32:33.442876Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-12T19:32:33.442890Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-12T19:32:34.915651Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 0, signal: None }"
+2026-07-12T19:32:34.930771Z  INFO herdr::pane: pane session terminated pane=2 pid=24676 signal=Hangup
+2026-07-12T19:32:34.931717Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=41 cols=131 scrollback_limit_bytes=10000000
+2026-07-12T19:32:35.106448Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=10964
+2026-07-12T19:32:35.106886Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w3" pane_id=3
+2026-07-12T19:32:35.106902Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-12T19:32:35.106991Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-12T19:32:36.577281Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 0, signal: None }"
+2026-07-12T19:32:36.589824Z  INFO herdr::pane: pane session terminated pane=3 pid=10964 signal=Hangup
+2026-07-12T19:32:36.590386Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=41 cols=131 scrollback_limit_bytes=10000000
+2026-07-12T19:32:36.608854Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=24112
+2026-07-12T19:32:36.609315Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w4" pane_id=4
+2026-07-12T19:32:36.609331Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-07-12T19:32:36.609344Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-12T19:32:41.628466Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-12T19:32:47.038853Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-12T19:32:55.160862Z  INFO herdr::server::headless: server shutdown initiated
+2026-07-23T13:13:32.635036Z  INFO herdr::api::server: api server listening path=C:\Users\itterum\AppData\Roaming\herdr\herdr.sock
+2026-07-23T13:13:32.646093Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-07-23T13:13:32.670212Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=22392
+2026-07-23T13:13:32.670835Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-07-23T13:13:32.670867Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-07-23T13:13:32.956428Z  INFO herdr::server::headless: restored session already has workspaces; ignoring startup cwd cwd=D:\Dev\ArenaRPG
+2026-07-23T13:13:32.956431Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-23T13:13:32.965603Z  INFO herdr::server::headless: client protocol socket listening path=C:\Users\itterum\AppData\Roaming\herdr\herdr-client.sock
+2026-07-23T13:13:32.965777Z  INFO herdr::server::headless: herdr server started api_socket=C:\Users\itterum\AppData\Roaming\herdr\herdr.sock client_socket=C:\Users\itterum\AppData\Roaming\herdr\herdr-client.sock
+2026-07-23T13:13:32.966290Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=18300
+2026-07-23T13:13:32.973180Z  INFO herdr::server::headless: client connected client_id=1 cols=80 rows=24 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-23T13:13:32.974532Z  INFO herdr::server::headless: client disconnected client_id=1
+2026-07-23T13:13:32.974588Z  INFO herdr::server::headless: client connected client_id=2 cols=188 rows=49 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-23T13:15:05.627120Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="claude"
+2026-07-23T13:15:05.646942Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="codex"
+2026-07-23T13:15:10.686137Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T13:16:24.914779Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-23T13:17:13.097615Z  INFO herdr::server::headless: client connected client_id=3 cols=130 rows=45 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-23T13:17:22.171201Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 0, signal: None }"
+2026-07-23T13:17:22.183564Z  INFO herdr::pane: pane session terminated pane=1 pid=22392 signal=Hangup
+2026-07-23T13:17:22.183999Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=44 cols=104 scrollback_limit_bytes=10000000
+2026-07-23T13:17:22.194331Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=16628
+2026-07-23T13:17:22.194710Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w5" pane_id=2
+2026-07-23T13:17:22.194730Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-07-23T13:17:22.195468Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-23T13:17:26.124392Z  INFO herdr::server::headless: client detach requested via keybind client_id=3
+2026-07-23T13:17:26.138911Z  INFO herdr::server::headless: client disconnected client_id=3
+2026-07-23T13:17:27.208007Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T13:17:32.604403Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 0, signal: None }"
+2026-07-23T13:17:32.615839Z  INFO herdr::pane: pane session terminated pane=2 pid=16628 signal=Hangup
+2026-07-23T13:17:32.616190Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=48 cols=162 scrollback_limit_bytes=10000000
+2026-07-23T13:17:32.625902Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=24288
+2026-07-23T13:17:32.626235Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w6" pane_id=3
+2026-07-23T13:17:32.626250Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-07-23T13:17:32.626664Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-07-23T13:17:34.434027Z  INFO herdr::server::headless: client detach requested via keybind client_id=2
+2026-07-23T13:17:34.449330Z  INFO herdr::server::headless: client disconnected client_id=2
+2026-07-23T13:17:37.649757Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T13:17:56.551708Z  INFO herdr::server::headless: client connected client_id=4 cols=130 rows=45 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-23T13:19:34.187097Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-23T13:23:10.508858Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 0, signal: None }"
+2026-07-23T13:23:10.522905Z  INFO herdr::pane: pane session terminated pane=3 pid=24288 signal=Hangup
+2026-07-23T13:23:10.523373Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=44 cols=104 scrollback_limit_bytes=10000000
+2026-07-23T13:23:10.534672Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=9428
+2026-07-23T13:23:10.535092Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w7" pane_id=4
+2026-07-23T13:23:10.535122Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w7"
+2026-07-23T13:23:10.535684Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T13:23:12.321927Z  INFO herdr::server::headless: client detach requested via keybind client_id=4
+2026-07-23T13:23:12.337343Z  INFO herdr::server::headless: client disconnected client_id=4
+2026-07-23T13:23:15.544956Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T13:36:16.035865Z  INFO herdr::server::headless: client connected client_id=5 cols=130 rows=45 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-23T13:36:25.502986Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="pi"
+2026-07-23T13:36:30.565109Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T13:36:47.321864Z  INFO herdr::pane: agent changed pane=4 previous_agent=None agent=Some(Pi) process=pi pgid=Some(15908)
+2026-07-23T13:36:48.612901Z  INFO herdr::pane: agent changed pane=4 previous_agent=Some(Pi) agent=None pgid=Some(9428)
+2026-07-23T13:36:49.648963Z  INFO herdr::pane: agent changed pane=4 previous_agent=None agent=Some(Pi) process=pi pgid=Some(7396)
+2026-07-23T13:36:50.691495Z  INFO herdr::pane: agent changed pane=4 previous_agent=None agent=Some(Pi) process=pi pgid=Some(7396)
+2026-07-23T13:36:55.594307Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T13:39:48.428475Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=44 cols=104 scrollback_limit_bytes=10000000
+2026-07-23T13:39:48.439780Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=23804
+2026-07-23T13:39:48.440249Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w8" pane_id=5
+2026-07-23T13:39:48.440268Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-07-23T13:39:48.441447Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-07-23T13:39:51.279841Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-07-23T13:39:51.281370Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-07-23T13:39:55.003131Z  INFO herdr::logging: workspace closed event="workspace.close" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-07-23T13:39:55.015986Z  INFO herdr::pane: pane session terminated pane=5 pid=23804 signal=Hangup
+2026-07-23T13:39:55.027363Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=5 status="ExitStatus { code: 3221225786, signal: None }"
+2026-07-23T13:39:55.027433Z  WARN herdr::app::actions: PaneDied for unknown pane pane=5
+2026-07-23T13:40:00.026879Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T13:40:03.850474Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="herdr:pi:release:1784814003746:9jpvigqfjgq" method="pane.release_agent" changes_ui=true
+2026-07-23T13:40:03.851344Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="herdr:pi:release:1784814003746:9jpvigqfjgq" method="pane.release_agent"
+2026-07-23T13:40:05.179941Z  INFO herdr::pane: agent changed pane=4 previous_agent=None agent=Some(Pi) process=pi pgid=Some(22388)
+2026-07-23T13:40:07.429485Z  INFO herdr::pane: agent changed pane=4 previous_agent=Some(Pi) agent=None pgid=Some(9428)
+2026-07-23T13:40:08.860659Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T13:40:15.231231Z  INFO herdr::pane: agent changed pane=4 previous_agent=None agent=Some(Pi) process=pi pgid=Some(19072)
+2026-07-23T13:40:18.045134Z  INFO herdr::pane: agent changed pane=4 previous_agent=None agent=Some(Pi) process=pi pgid=Some(6204)
+2026-07-23T13:40:22.934349Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T13:43:32.963990Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-23T14:13:32.966631Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-23T14:43:32.978193Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-23T15:13:32.991217Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-23T15:33:26.380849Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T15:33:27.732784Z  INFO herdr::server::headless: client resize client_id=5 cols=237 rows=61 cell_width_px=0 cell_height_px=0
+2026-07-23T15:33:30.754186Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=6 rows=60 cols=219 scrollback_limit_bytes=10000000
+2026-07-23T15:33:30.783568Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=6 pid=22884
+2026-07-23T15:33:30.784524Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T15:33:35.832779Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T15:34:47.944060Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T15:34:52.955305Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T15:34:55.375002Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T15:35:00.382284Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T15:35:05.530749Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T15:35:10.537985Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T15:37:06.786863Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-07-23T15:37:06.787640Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-07-23T15:37:32.565038Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T15:37:33.847539Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=6 status="ExitStatus { code: 0, signal: None }"
+2026-07-23T15:37:33.863553Z  INFO herdr::pane: pane session terminated pane=6 pid=22884 signal=Hangup
+2026-07-23T15:37:38.430415Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=7 rows=60 cols=219 scrollback_limit_bytes=10000000
+2026-07-23T15:37:38.520494Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=7 pid=21800
+2026-07-23T15:37:38.521595Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T15:37:43.530144Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T15:37:57.302007Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T15:38:02.318615Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T15:38:37.513351Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-07-23T15:38:37.514318Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-07-23T15:38:57.299624Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T15:38:58.617562Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T15:39:03.638501Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T15:39:24.105845Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="herdr:pi:release:1784821164103:f47xx4gc90q" method="pane.release_agent" changes_ui=true
+2026-07-23T15:39:24.107350Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="herdr:pi:release:1784821164103:f47xx4gc90q" method="pane.release_agent"
+2026-07-23T15:39:29.116172Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T15:39:31.555522Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T15:39:36.569204Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T15:39:40.667751Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T15:39:45.674591Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T15:39:50.552304Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T15:39:55.564432Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T15:39:57.069103Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T15:39:58.894247Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T15:40:00.221330Z  INFO herdr::pane: agent changed pane=7 previous_agent=None agent=Some(Pi) process=pi pgid=Some(396)
+2026-07-23T15:40:01.006391Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T15:40:06.013558Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T15:40:32.184784Z  INFO herdr::pane: agent changed pane=7 previous_agent=Some(Pi) agent=None pgid=Some(21800)
+2026-07-23T15:40:32.709432Z  INFO herdr::pane: agent changed pane=7 previous_agent=None agent=Some(Pi) process=pi pgid=Some(24716)
+2026-07-23T15:40:34.980339Z  INFO herdr::pane: agent changed pane=7 previous_agent=None agent=Some(Pi) process=pi pgid=Some(24716)
+2026-07-23T15:40:39.843243Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T15:41:00.039237Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T15:41:05.045542Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T15:41:20.252443Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T15:41:25.267257Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T15:41:31.788753Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=8 rows=60 cols=110 scrollback_limit_bytes=10000000
+2026-07-23T15:41:31.834036Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=8 pid=20852
+2026-07-23T15:41:31.835153Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t2"
+2026-07-23T15:41:36.842482Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T15:41:40.517609Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T15:41:41.848984Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t2"
+2026-07-23T15:41:43.085546Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T15:41:44.816587Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t2"
+2026-07-23T15:41:46.346263Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T15:41:51.359990Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T15:42:56.505411Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t2"
+2026-07-23T15:42:59.910936Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T15:43:04.928011Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T15:43:32.991791Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-23T16:13:32.995421Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-23T16:43:33.004461Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-23T17:10:03.131728Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T17:10:06.139654Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="herdr:pi:release:1784826606137:sphr6koo7d" method="pane.release_agent" changes_ui=true
+2026-07-23T17:10:06.147197Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="herdr:pi:release:1784826606137:sphr6koo7d" method="pane.release_agent"
+2026-07-23T17:10:11.166505Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T17:13:33.007027Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-23T17:30:50.341591Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T17:30:51.405414Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T17:30:54.831242Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=7 status="ExitStatus { code: 0, signal: None }"
+2026-07-23T17:30:54.849842Z  INFO herdr::pane: pane session terminated pane=7 pid=21800 signal=Hangup
+2026-07-23T17:30:59.871008Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T17:31:16.214870Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t2"
+2026-07-23T17:31:18.129104Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-23T17:31:19.125633Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t2"
+2026-07-23T17:31:20.606935Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=8 status="ExitStatus { code: 0, signal: None }"
+2026-07-23T17:31:20.626554Z  INFO herdr::pane: pane session terminated pane=8 pid=20852 signal=Hangup
+2026-07-23T17:31:25.642724Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T17:31:28.125172Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 0, signal: None }"
+2026-07-23T17:31:28.144128Z  INFO herdr::pane: pane session terminated pane=4 pid=9428 signal=Hangup
+2026-07-23T17:31:28.145432Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=9 rows=60 cols=219 scrollback_limit_bytes=10000000
+2026-07-23T17:31:29.286195Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=9 pid=16524
+2026-07-23T17:31:29.287053Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w9" pane_id=9
+2026-07-23T17:31:29.287099Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w9"
+2026-07-23T17:31:29.287888Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-23T17:31:32.065582Z  INFO herdr::server::headless: client detach requested via keybind client_id=5
+2026-07-23T17:31:32.079017Z  INFO herdr::server::headless: client disconnected client_id=5
+2026-07-23T17:31:34.319523Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-23T17:43:33.017480Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-23T18:13:33.029542Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-23T18:43:33.034173Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-23T19:13:33.035883Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-23T19:43:33.042838Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-23T20:13:33.054064Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-23T23:18:13.510441Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-24T06:56:40.518761Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-24T07:26:40.530221Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-24T07:56:40.531171Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-24T08:26:40.532610Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-24T08:56:40.535217Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-24T09:26:40.541133Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-24T09:56:40.556387Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-24T09:57:37.679835Z  INFO herdr::server::headless: client connected client_id=6 cols=237 rows=61 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-24T09:57:44.129656Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=10 rows=60 cols=219 scrollback_limit_bytes=10000000
+2026-07-24T09:57:44.180876Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=10 pid=18760
+2026-07-24T09:57:44.181609Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T09:57:46.821561Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T09:57:47.613632Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T09:57:51.930097Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=11 rows=60 cols=110 scrollback_limit_bytes=10000000
+2026-07-24T09:57:51.959276Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=11 pid=7424
+2026-07-24T09:57:51.960223Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T09:57:56.979159Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T09:58:17.710818Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=11 status="ExitStatus { code: 0, signal: None }"
+2026-07-24T09:58:17.723855Z  INFO herdr::pane: pane session terminated pane=11 pid=7424 signal=Hangup
+2026-07-24T09:58:22.733685Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T09:58:41.724163Z  INFO herdr::pane: agent changed pane=10 previous_agent=None agent=Some(Pi) process=pi pgid=Some(9932)
+2026-07-24T09:59:06.365792Z  INFO herdr::pane: agent changed pane=10 previous_agent=Some(Pi) agent=None pgid=Some(18760)
+2026-07-24T09:59:06.876310Z  INFO herdr::pane: agent changed pane=10 previous_agent=None agent=Some(Pi) process=pi pgid=Some(18580)
+2026-07-24T09:59:08.383750Z  INFO herdr::pane: agent changed pane=10 previous_agent=None agent=Some(Pi) process=pi pgid=Some(18580)
+2026-07-24T09:59:13.295480Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T09:59:52.945436Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T09:59:57.962595Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T10:02:35.618750Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=12 rows=60 cols=110 scrollback_limit_bytes=10000000
+2026-07-24T10:02:35.651491Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=12 pid=6076
+2026-07-24T10:02:35.652683Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t2"
+2026-07-24T10:02:38.855389Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T10:02:43.866844Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T10:03:16.947629Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T10:03:21.967726Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T10:03:56.518960Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T10:04:01.533480Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T10:05:58.520497Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T10:06:03.534038Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T10:06:22.044579Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T10:06:27.063004Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T10:06:55.106924Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T10:07:00.119269Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T10:07:23.624835Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T10:07:28.636825Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T10:08:41.034417Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T10:08:46.042604Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T10:09:49.198258Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T10:09:54.209117Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T10:10:24.622788Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T10:10:29.637807Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T10:10:30.671419Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T10:10:35.691143Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T10:10:48.362164Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T10:10:53.375655Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T10:12:39.451029Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T10:12:44.468565Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T10:14:06.492213Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T10:14:11.511706Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T10:14:23.801410Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T10:14:28.811411Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T10:14:58.849566Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T10:15:03.874167Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T10:17:47.831575Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T10:17:52.851347Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T10:18:34.374408Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T10:18:39.389096Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T10:19:37.373292Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T10:19:42.395178Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T10:26:40.564029Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-24T10:29:16.982367Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t2"
+2026-07-24T10:29:21.995957Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T10:29:33.979791Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T10:30:21.214716Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T10:30:37.231026Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T10:30:42.248706Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T10:56:40.570630Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-24T11:26:04.053239Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t2"
+2026-07-24T11:26:09.067347Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T11:26:10.925210Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T11:26:15.931793Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T11:26:40.578664Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-24T11:29:48.852754Z  INFO herdr::server::headless: client resize client_id=6 cols=130 rows=45 cell_width_px=0 cell_height_px=0
+2026-07-24T11:29:55.984035Z  INFO herdr::server::headless: client resize client_id=6 cols=237 rows=64 cell_width_px=0 cell_height_px=0
+2026-07-24T11:33:53.295481Z  INFO herdr::server::headless: client resize client_id=6 cols=237 rows=63 cell_width_px=0 cell_height_px=0
+2026-07-24T11:33:55.705870Z  INFO herdr::server::headless: client resize client_id=6 cols=237 rows=64 cell_width_px=0 cell_height_px=0
+2026-07-24T11:56:40.583388Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-24T11:57:11.741681Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T11:57:16.751656Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T11:59:35.998935Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T11:59:41.011741Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T12:00:13.810664Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t2"
+2026-07-24T12:00:18.814731Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T12:01:00.962518Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T12:01:05.967847Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T12:17:49.435714Z  INFO herdr::server::headless: client resize client_id=6 cols=130 rows=45 cell_width_px=0 cell_height_px=0
+2026-07-24T12:17:51.947250Z  INFO herdr::server::headless: client resize client_id=6 cols=237 rows=61 cell_width_px=0 cell_height_px=0
+2026-07-24T12:24:04.719365Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-24T12:24:52.664570Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T12:24:54.779763Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="herdr:pi:release:1784895894777:rs3z93wjrd" method="pane.release_agent" changes_ui=true
+2026-07-24T12:24:54.780778Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="herdr:pi:release:1784895894777:rs3z93wjrd" method="pane.release_agent"
+2026-07-24T12:24:56.238446Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=10 status="ExitStatus { code: 0, signal: None }"
+2026-07-24T12:24:56.255116Z  INFO herdr::pane: pane session terminated pane=10 pid=18760 signal=Hangup
+2026-07-24T12:25:01.260996Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T12:26:40.585924Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-24T12:30:08.482313Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T12:30:39.928799Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T12:31:45.992602Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=13 rows=60 cols=219 scrollback_limit_bytes=10000000
+2026-07-24T12:31:46.021620Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=13 pid=6792
+2026-07-24T12:31:46.022213Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T12:31:51.028993Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T12:31:58.195372Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T12:32:33.125794Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T12:32:38.134515Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1
+2026-07-24T12:32:45.076066Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-24T12:32:50.089927Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=C:\Users\itterum\AppData\Roaming\herdr\session.json workspaces=1

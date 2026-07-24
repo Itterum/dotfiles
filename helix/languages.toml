@@ -1,9 +1,4 @@
 [[language]]
-name = "rust"
-auto-format = true
-formatter = { command = "rustfmt" }
-
-[[language]]
 name = "typescript"
 formatter = { command = "prettier", args = ["--parser", "typescript"] }
 auto-format = true
@@ -21,15 +16,22 @@ auto-format = true
 [[language]]
 name = "jsx"
 formatter = { command = "prettier", args = ["--parser", "javascript"] }
-auto-format = true   
+auto-format = true
+
+# --- C# ---
+# Языковой сервер: csharp-ls (dotnet global tool, ~/.dotnet/tools/csharp-ls).
+# Форматтер: csharpier (через stdin/stdout).
+# Отладчик netcoredbg и launch/attach шаблоны уже настроены в дефолтах Helix.
+# roots переопределены, чтобы Helix находил workspace по .sln/.slnx/.csproj
+# (дефолтные ["sln", "csproj"] не матчат .slnx и csproj в подпапке).
 
 [[language]]
 name = "c-sharp"
-file-types = ["cs", "csx"]
+# На Helix <= 25.07.x root-маркеры по расширению (*.csproj) не работают
+# (баг https://github.com/helix-editor/helix/issues/15080), поэтому корень
+# проекта фиксируется через .helix/ в корне репозитория. Glob'ы ниже оставлены
+# для совместимости с будущими версиями Helix (PR #15081).
+roots = ["*.sln", "*.slnx", "*.csproj"]
+language-servers = ["csharp-ls"]
 auto-format = true
-formatter = { command = "dotnet", args = ["csharpier"] }   
-
-[[language]]
-name = "lua"
-formatter = { command = "stylua", args = ["--search-parent-directories", "-"] }
-auto-format = true   
+formatter = { command = "csharpier", args = ["format", "--write-stdout"] }

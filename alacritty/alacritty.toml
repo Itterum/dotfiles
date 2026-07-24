@@ -1,3 +1,6 @@
+[general]
+working_directory = "C:\\Users\\itterum"
+
 [window]
 # Дефолтный размер окна при запуске (колонки и строки)
 dimensions = { columns = 130, lines = 45 }
@@ -7,27 +10,33 @@ dynamic_padding = true
 
 [font]
 # Настройка шрифта
-normal = { family = "Hack Nerd Font", style = "Regular" }
-bold = { family = "Hack Nerd Font", style = "Bold" }
-italic = { family = "Hack Nerd Font", style = "Italic" }
+normal = { family = "FiraCode Nerd Font", style = "Regular" }
+bold = { family = "FiraCode Nerd Font", style = "Bold" }
+italic = { family = "FiraCode Nerd Font", style = "Italic" }
 size = 10.0
 
 # Отрисовка символов
 builtin_box_drawing = true
 
 [terminal.shell]
-program = "wsl.exe"
-args = ["-d", "Debian", "--cd", "~", "--", "tmux", "new-session", "-A", "-s", "main"]
+# Portable pwsh (real exe, outside WindowsApps) — Termy crashes on Store-pwsh
+# app-aliases, but Alacritty spawns this fine. Profile auto-loads wsl() -> home.
+program = "C:\\Users\\itterum\\tools\\pwsh7\\pwsh.exe"
 
-[colors.primary]
-# Элегантные темные цвета (в стиле VS Code / JetBrains Dark)
-background = "#1e1e1e"
-foreground = "#cccccc"
+# [colors.primary]
+# # Элегантные темные цвета (в стиле VS Code / JetBrains Dark)
+# background = "#1e1e1e"
+# foreground = "#cccccc"
 
-[colors.cursor]
-text = "#1e1e1e"
-cursor = "#d4d4d4"
+# [colors.cursor]
+# text = "#1e1e1e"
+# cursor = "#d4d4d4"
 
 [mouse]
 # Скрывать курсор мыши во время печати (улучшает фокус)
 hide_when_typing = true
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Shift"
+chars = "\u001B\r"
