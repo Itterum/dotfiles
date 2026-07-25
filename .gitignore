@@ -1,0 +1,18 @@
+# ===== .pi / pi agent =====
+.pi/agent/auth.json
+.pi/agent/bin/
+.pi/agent/sessions/
+.pi/context-mode/
+# node_modules уже исключён внутренним .gitignore, но для надёжности:
+.pi/agent/npm/node_modules/
+
+# ===== herdr runtime =====
+herdr/*.log
+herdr/*.sock
+herdr/session.json
+herdr/.plugins.lock
+herdr/plugins/
+herdr/plugins.json
+
+# ===== misc =====
+*.bak

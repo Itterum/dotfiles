@@ -1,0 +1,12 @@
+{
+  "defaultModel": "glm-5.2:cloud",
+  "defaultProvider": "ollama",
+  "lastChangelogVersion": "0.82.0",
+  "packages": [
+    "npm:@ollama/pi-web-search",
+    "npm:pi-cc-extensions",
+    "npm:pi-subagents",
+    "npm:context-mode",
+    "npm:pi-playwright"
+  ]
+}
