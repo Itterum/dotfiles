@@ -1,12 +1,7 @@
-# ===== .pi / pi agent =====
-.pi/agent/auth.json
-.pi/agent/bin/
-.pi/agent/sessions/
-.pi/context-mode/
-# node_modules уже исключён внутренним .gitignore, но для надёжности:
-.pi/agent/npm/node_modules/
+# Pi is no longer used; ignore the whole directory if a tool recreates it.
+.pi/
 
-# ===== herdr runtime =====
+# Herdr runtime state
 herdr/*.log
 herdr/*.sock
 herdr/session.json
@@ -14,5 +9,5 @@ herdr/.plugins.lock
 herdr/plugins/
 herdr/plugins.json
 
-# ===== misc =====
+# Miscellaneous local backups
 *.bak

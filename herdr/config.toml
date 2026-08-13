@@ -1,17 +1,10 @@
 onboarding = false
-
-[terminal]
-default_shell = "pwsh"
-
-[theme]
-name = "terminal"
-auto_switch = false
-
-[keys]
-prefix = "ctrl+a"
+[ui]
+show_agent_labels_on_pane_borders = true
 
 [ui.toast]
-delivery = "herdr"
+delivery = "system"
 
-[ui]
-show_agent_labels_on_pane_borders = false
+[theme]
+name = "catppuccin"
+auto_switch = false
