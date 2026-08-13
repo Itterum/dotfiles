@@ -7,7 +7,8 @@ Personal terminal and editor configuration for Fedora Atomic/Niri.
 - `helix/` — editor settings and language support for JavaScript/TypeScript, Rust, Python and C#
 - `ghostty/` and `alacritty/` — terminal configuration (Ghostty is preferred)
 - `herdr/` — persistent terminal workspace configuration
-- `zed/` — Zed settings
+- `niri/` — compositor, input, and keybinding configuration
+- `zed/` — Zed settings, keybindings, debug profiles, and themes
 - `.zshrc` — Zsh/Oh My Zsh environment
 
 The obsolete Pi Agent configuration was intentionally removed.
@@ -26,11 +27,15 @@ rustup component add rust-analyzer rustfmt clippy
 Then copy the configuration:
 
 ```sh
-mkdir -p ~/.config/helix ~/.config/ghostty ~/.config/herdr
+mkdir -p ~/.config/helix ~/.config/ghostty ~/.config/herdr ~/.config/niri
 cp -r helix/. ~/.config/helix/
 cp -r ghostty/. ~/.config/ghostty/
 cp herdr/config.toml ~/.config/herdr/config.toml
+cp niri/config.kdl ~/.config/niri/config.kdl
 cp .zshrc ~/.zshrc
+./zed/install.sh
 ```
+
+`zed/install.sh` installs settings, keybindings, debug profiles, and custom themes. It automatically detects the Flatpak configuration directory and falls back to `~/.config/zed` for a native installation.
 
 Use `hx --health typescript`, `hx --health rust`, and `hx --health python` to verify the language tooling.

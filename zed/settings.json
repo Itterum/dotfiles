@@ -1,58 +1,47 @@
 {
-  "wsl_connections": [
-    {
-      "distro_name": "Ubuntu-24.04",
-      "user": "work",
-      "projects": [
-        {
-          "paths": ["/home/work/projects/api-runner"]
-        }
-      ]
-    },
-    {
-      "distro_name": "Ubuntu-24.04",
-      "user": "dev",
-      "projects": []
-    }
-  ],
+  "window_decorations": "server",
+  "title_bar": {
+    "show_sign_in": false,
+    "show_menus": false,
+    "button_layout": "platform_default"
+  },
   "disable_ai": true,
   "edit_predictions": {
-    "allow_data_collection": "no",
+    "allow_data_collection": "no"
   },
-  "ui_font_family": "Comic Sans MS",
-  "buffer_font_family": "FiraCode Nerd Font",
   "soft_wrap": "editor_width",
   "relative_line_numbers": "enabled",
   "cli_default_open_behavior": "new_window",
+  "format_on_save": "on",
+  "code_lens": "on",
   "inlay_hints": {
     "enabled": true,
-    "show_type_hints": true,
+    "show_type_hints": true
   },
   "diagnostics": {
     "include_warnings": true,
     "inline": {
-      "enabled": true,
-    },
+      "enabled": true
+    }
   },
-  "format_on_save": "on",
-  "code_lens": "on",
+  "ui_font_family": "Comic Sans MS",
+  "ui_font_size": 15.0,
+  "buffer_font_family": "FiraCode Nerd Font",
+  "buffer_font_size": 14.0,
+  "helix_mode": true,
+  "vim_mode": false,
+  "base_keymap": "JetBrains",
   "terminal": {
     "shell": "system",
     "font_family": "FiraCode Nerd Font Mono",
-    "dock": "right",
+    "dock": "right"
   },
-  "icon_theme": "JetBrains New UI Icons (Dark)",
-  "helix_mode": true,
   "session": {
-    "trust_all_worktrees": true,
+    "trust_all_worktrees": true
   },
-  "vim_mode": false,
-  "base_keymap": "JetBrains",
-  "ui_font_size": 15.0,
-  "buffer_font_size": 14.0,
   "theme": {
     "mode": "system",
-    "light": "JetBrains Islands Dark",
-    "dark": "JetBrains Islands Dark",
-  },
+    "light": "Catppuccin Mocha Default Background",
+    "dark": "Catppuccin Mocha Default Background"
+  }
 }
